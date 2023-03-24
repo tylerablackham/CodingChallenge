@@ -1,0 +1,9 @@
+This program took me an hour and 40 minutes to write.
+
+I wasn't sure how the inputs were supposed to be taken in, so I designed it so that the program would prompt you on what you wanted to do and then prompted you to input the number/numeral you wanted converted. 
+
+The conversion from Roman Numeral to Decimal works on any valid Roman Numeral and is not case-sensitive. It throws an exception if there are invalid characters or an invalid order of numerals within the input. 
+
+Similarly, the conversion from Decimal to Roman Numeral works on any natural number and throws an exception if the input is an integer that is less than 1.
+
+I made use of vectors, sets, and maps to easily traverse through the Roman Numeral and match each character with its intended value. The definitions of these vectors, sets, and maps may look a little clunky but they saved me some time and space in the long run.
